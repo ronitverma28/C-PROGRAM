@@ -1,38 +1,39 @@
 #include <stdio.h>
 #include <stdbool.h>
-
-int main(){
-    int arr[] = {10, 9, 5, 1, 2, 3, 6};
+int main() {
+    int arr[] = {10, 11, 16, 17, 2, 7, 1, 8, 5, 15, 12, 18, 9, 14, 13, 6, 4, 20, 19, 3};
     int len = sizeof(arr) / sizeof(arr[0]);
-    int n, low = 0, high = len-1, mid;
+    int i,j,v,l,h;
     bool search = false;
-
-    printf("Enter the number to find in the array : ");
+    int n = printf("enter the number : ");
     scanf("%d", &n);
-    for (int i = 0; i < len; i++){
-        for (int j = i + 1; j < len; j++){
-            if (arr[i] > arr[j]){
-                arr[i] += arr[j];
-                arr[j] = arr[i] - arr[j];
-                arr[i] -= arr[j];
+    
+    for(i = 0;i<len;i++){
+        for(j = i+1;j<len;j++){
+            if(arr[i] > arr[j]){
+                v = arr[i];
+                arr[i] = arr[j];
+                arr[j] = v;
             }
         }
     }
-
-    while (low <= high){   
-        mid = (low + high) / 2;
-        if (arr[mid] == n){
+    l = 0;
+    h = len-1;
+    while(l<=h){
+        v = (l+h)/2;
+        if(arr[v] == n){
             search = true;
             break;
         }
-        else if (n < arr[mid]){
-            high = mid - 1;
+        else if(n < arr[v]){
+            h = v-1;
         }
         else{
-            low = mid + 1;
+            l = v+1;
         }
     }
+    
+    (search)? printf("the element is present"):printf("element is not present");
 
-    (search)?printf("%d is present at %d", n, mid):printf("%d is not present in the array", n);
     return 0;
 }
