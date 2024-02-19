@@ -8,7 +8,7 @@ int main() {
             c++;
         }
     }
-    (c==2)?printf("prime") : printf("not prime");
+    (c==2) ? printf("prime") : printf("not prime");
 
     return 0;
 }
