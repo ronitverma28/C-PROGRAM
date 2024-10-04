@@ -1,0 +1,48 @@
+Q.1 Define Python
+
+# PYTHON
+Python is object oriented high level language. It was initially design by Guido Van Rossum in 1991 and then developed by python software foundation
+Characteristics of Python:-
+	i) Python is object oriented.
+	ii) It's free (Open source)
+	iii) This is interpreted language.
+	iv) Interactive programming language.
+	v) Straight forward syntax.
+
+# Data types:-
+The data stored in memory can be of many types. Python has various standard data types that are used two define the operation possible on them and the storage method for each of them
+i) int or integer
+	It is a whole number, positive or negative without decimal of unlimited length.
+ii) float or floating point number
+	It positive or negative numbers containing one or more decimals. Floats can be scientific numbers also such as e, pi, etc.
+iii) boolean
+	objects of boolean types may have one of two values (True or False)
+iv) string
+	String in python are identified as a contigious set of characters represented in the qoutation marks (""). Python allows for either pairs signle ('') or double qoutes ("")
+v) list
+	a) It is a general purpose most wide use in data structures.h
+	b) List is a collection which is ordered and changable and allows duplicate members (grow and shrink) as needed, sequence type, sortable
+	c) To use a list, you must declared it first do this using square bractes ([]) and seperate values with (,)
+
+# Variables
+variable are nothing but reserved memory location to store values. This means that when you create a variable you reserve some space in memory
+
+# Rules for python variables:-	
+	i) A variable name must start with the letter or a underscore character "_"
+	ii) A variable name cannot start with the number.
+	iii) A variable name can only contain alpha numeric characters and underscores (A-Z, 0-9, _)
+	iv) Variable names are case-sensitive (age, Age, AGE -> are three different variables)
+
+# Assigning values to variable:-
+
+Python variables donot need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. The equal sign "=" is used to assign a variables.
+Note-1:- The operand to the left of the equal operator is the name of the variable and the operand to the right of the equal opeator is the value of the variable
+
+
+
+
+
+
+
+
+
