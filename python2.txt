@@ -1,0 +1,38 @@
+Define python
+PYTHON
+->It is object oriented high level language. It was initially designed by Guido Van Rossum in 1991 and then developed by python software foundation.
+
+->Characterstics of python:
+    1. Python is object oriented.
+    2. Its free.
+    3. It is interpreted langauge.
+    4. Interactive programming language.
+    5. Straight forward syntax.
+
+->Data types
+    The data stored in memory can be of many types. Python has various standard data types that are used to define the operation possible on them and the storage method for each       of them.
+    1. int
+        int or integer is a whole number, positive or negative without decimal of unlimited length.
+    2. float
+        float or floating point number, positive or negative containing one or  more decimals
+        floats can be scientific numbers also such as e, pi, etc.
+    3. boolean
+        Objects of boolean type may have one of two values, True or Flase 
+    4. string
+        string in python are identified as a contigious set of characters represented in the quotation marks (""),('').  Python allows for either pairs of single or double quotes.
+    5. list
+         a. It is general purpose most widely used in data structures.
+         b. list is a collection which is ordered and changable, and allows duplicate members(grow, shrink) as needed, sequence type, sortable. 
+         c. To use a list you must declare it first, do this using square brackets and seperate values with commas.
+    6. varibles
+         variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.
+
+->Rules for Python variables
+    1. A variable must start with a letter or the underscore character "_".
+    2. A variable can't start with a number.
+    3. A variable name can only contain alphanumeric characters and underscores (A-Z, 0-9,_).
+    4. Variable names are case sensitive (age, Age, AGE are three different variables).
+
+->Assigning values to variables
+    Python variables do not need explicit declaration to reserve memory space. The declaratin happens automatically when you assign value to a variable. The equal sign is used to         assign a value to variable
+    NOTE- The operand to the left of the eqaul operatoer is the name of the variable and the operand to the right of the equal operator is the value of the variable.
